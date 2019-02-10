@@ -12,12 +12,10 @@
 | Number of cores per socket         |                    |         |                    |
 | Number of threads per core         |                    |         |                    |
 | Maximum core frequency             |                    |         |                    |
-|------------------------------------|--------------------|---------|--------------------|
 | L1-I cache size (per-core)         |                    |         |                    |
 | L1-D cache size (per-core)         |                    |         |                    |
 | L2 cache size (per-core)           |                    |         |                    |
 | Last-level cache size (per-socket) |                    |         |                    |
-|------------------------------------|--------------------|---------|--------------------|
 | Main memory size (per socket)      |                    |         |                    |
 | Main memory size (per node)        |                    |         |                    |
 
