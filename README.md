@@ -13,3 +13,8 @@ En aquest repositori podeu trobar les pràctiques de l'assignatura de [Paral·le
 * [Laboratori 4: Divide and Conquer parallelism with OpenMP: Sorting]() - Nota: 11.30
 
 * [Laboratori 5: Geometric (data) decomposition: solving the heat equation]() - Nota: 9.80
+
+## Autors:
+
+* **Carlota Catot** - [carlotacb](https://github.com/carlotacb)
+* **Ferran Martínez** - 
