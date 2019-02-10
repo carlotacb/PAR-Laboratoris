@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+
+<trace enabled="yes"
+     home="$EXTRAE_HOME"
+     initial-mode="detail"
+     type="paraver"
+     xml-parser-id="Id: xml-parse.c 588 2011-04-05 09:15:50Z harald $"
+     >
+
+  <openmp enabled="yes" ompt="no">
+    <locks enabled="yes" />
+    <taskloop enabled="yes" />
+    <counters enabled="yes" />
+  </openmp>
+
+  <callers enabled="yes">
+  </callers>
+
+  <user-functions enabled="no" list="./user-functions.dat">
+    <max-depth enabled="no">3</max-depth>
+  </user-functions>
+
+  <storage enabled="no">
+    <trace-prefix enabled="yes">TRACE</trace-prefix>
+    <size enabled="no">5</size>
+    <temporal-directory enabled="yes">/tmp</temporal-directory>
+    <final-directory enabled="yes">$PWD$</final-directory>
+    <gather-mpits enabled="no" />
+  </storage>
+
+  <buffer enabled="yes">
+    <size enabled="yes">500000</size>
+    <circular enabled="no" />
+  </buffer>
+
+  <others enabled="no">
+    <minimum-time enabled="no">10M</minimum-time>
+  </others>
+
+</trace>

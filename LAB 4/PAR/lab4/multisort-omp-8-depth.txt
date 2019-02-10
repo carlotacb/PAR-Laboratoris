@@ -1,0 +1,65 @@
+1
+Initialization time in seconds: 0.801169
+Multisort execution time: 0.907260
+Check sorted data execution time: 0.042817
+Multisort program finished
+2
+Initialization time in seconds: 0.800584
+Multisort execution time: 0.901272
+Check sorted data execution time: 0.042974
+Multisort program finished
+4
+Initialization time in seconds: 0.800053
+Multisort execution time: 0.932367
+Check sorted data execution time: 0.043574
+Multisort program finished
+8
+Initialization time in seconds: 0.799907
+Multisort execution time: 0.926940
+Check sorted data execution time: 0.041991
+Multisort program finished
+16
+Initialization time in seconds: 0.800457
+Multisort execution time: 0.958006
+Check sorted data execution time: 0.043448
+Multisort program finished
+32
+Initialization time in seconds: 0.800875
+Multisort execution time: 0.991157
+Check sorted data execution time: 0.045074
+Multisort program finished
+64
+Initialization time in seconds: 0.799770
+Multisort execution time: 1.007021
+Check sorted data execution time: 0.047861
+Multisort program finished
+128
+Initialization time in seconds: 0.802491
+Multisort execution time: 0.979208
+Check sorted data execution time: 0.042686
+Multisort program finished
+256
+Initialization time in seconds: 0.800059
+Multisort execution time: 0.984162
+Check sorted data execution time: 0.043482
+Multisort program finished
+512
+Initialization time in seconds: 0.801118
+Multisort execution time: 1.061341
+Check sorted data execution time: 0.050644
+Multisort program finished
+1024
+Initialization time in seconds: 0.804216
+Multisort execution time: 1.181207
+Check sorted data execution time: 0.042114
+Multisort program finished
+2048
+Initialization time in seconds: 0.801480
+Multisort execution time: 1.175772
+Check sorted data execution time: 0.040619
+Multisort program finished
+4096
+Initialization time in seconds: 0.800715
+Multisort execution time: 1.606695
+Check sorted data execution time: 0.040071
+Multisort program finished
