@@ -17,4 +17,4 @@ En aquest repositori podeu trobar les pràctiques de l'assignatura de [Paral·le
 ## Autors:
 
 * **Carlota Catot** - [carlotacb](https://github.com/carlotacb)
-* **Ferran Martínez** - 
+* **Ferran Martínez** - [ferranmafe](https://github.com/ferranmafe)
