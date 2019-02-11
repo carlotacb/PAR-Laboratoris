@@ -1,16 +1,18 @@
-# Lab 5: Geometric (data) decomposition: solving the heat equation [Deliverable points]
+# Lab 5: Geometric (data) decomposition: solving the heat equation
 
-## Analysis with Tareador
+## Deliverable
+
+### Analysis with Tareador
 1. Include the relevant parts of the modified solver-tareador.c code and comment where the calls to the Tareador API have been placed. Comment also about the task graph generated and the causes of the dependences that appear in the two solvers: Jacobi and Gauss-Seidel. How will you protect them in the parallel OpenMP code?
 
-## OpenMP parallelization and execution analysis: Jacobi
+### OpenMP parallelization and execution analysis: Jacobi
 1. Describe the data decomposition strategy that is applied to solve the problem, including a picture with the part of the data structure that is assigned to each processor.
 
 2. Include the relevant portions of the parallel code that you implemented to solve the heat equation using the Jacobi solver, commenting whatever necessary. Including captures of Paraver windows to justify your explanations and the differences observed in the execution.
 
 3. Include the speed{up (strong scalability) plots that have been obtained for the different numbers of processors. Reason about the performance that is observed.
 
-## OpenMP parallelization and execution analysis: Gauss-Seidel
+### OpenMP parallelization and execution analysis: Gauss-Seidel
 
 1. Include the relevant portions of the parallel code that implements the Gauss-Seidel solver, commenting how you implemented the synchronization between threads.
 
