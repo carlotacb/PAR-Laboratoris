@@ -80,8 +80,13 @@ C) Tasks
 ### Part II: Parallelization overheads
 
 1. Which is the order of magnitude for the overhead associated with a parallel region (fork and join) in _OpenMP_? Is it constant? Reason the answer based on the results reported by the **pi_omp_parallel.c** code.
+
 2. Which is the order of magnitude for the overhead associated with the creation of a task and its synchronization at taskwait in _OpenMP_? Is it constant? Reason the answer based on the results reported by the **pi_omp_tasks.c** code.
+
 3. Based on the results reported by the **pi_omp_taskloop.c** code, If you have to generate tasks out of a loop, what seems to be better: to use _task_ or _taskloop_? Try to reason the answer. 
+
 4. Which is the order of magnitude for the overhead associated with the execution of critical regions in _OpenMP_? How is this overhead decomposed? How and why does the overhead associated with critical increase with the number of processors? Identify at least three reasons that justify the observed performance degradation. Base your answers on the execution times reported by the **pi_omp.c** and **pi_omp_critical.c** programs and their _Paraver_ execution traces.
+
 5. Which is the order of magnitude for the overhead associated with the execution of atomic memory accesses in _OpenMP_? How and why does the overhead associated with atomic increase with the number of processors? Reason the answers based on the execution times reported by the **pi_omp.c** and **pi_omp_atomic.c** programs.
+
 6. In the presence of false sharing (as it happens in pi omp sumvector.c), which is the additional average time for each individual access to memory that you observe? What is causing this increase in the memory access time? Reason the answers based on the execution times reported by the **pi_omp_sumvector.c** and **pi_omp_padding.c** programs. Explain how padding is done in **pi_omp_padding.c**.

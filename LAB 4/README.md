@@ -14,6 +14,7 @@
 
 ### Parallelization and performance analysis with dependent tasks
 1. Include the relevant portion of the code that implements the Tree version with task dependencies, commenting whatever necessary.
+
 2. Reason about the performance that is observed, including the speed-up plots that have been obtained different numbers of processors and with captures of Paraver windows to justify your reasoning.
 
 ### Optional
