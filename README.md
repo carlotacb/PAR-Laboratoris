@@ -4,15 +4,15 @@ En aquest repositori podeu trobar les pràctiques de l'assignatura de [Paral·le
 
 ## Pràctiques:
 
-* [Laboratori 1: Experimental setup and tools]() - Nota: 9.0
+* [Laboratori 1: Experimental setup and tools](https://github.com/carlotacb/PAR-Laboratoris/tree/master/LAB%201) - Nota: 9.0
 
-* [Laboratori 2: OpenMP programming model and analysis of overheads]() - Nota: 10.0
+* [Laboratori 2: OpenMP programming model and analysis of overheads](https://github.com/carlotacb/PAR-Laboratoris/tree/master/LAB%202) - Nota: 10.0
 
-* [Laboratori 3: Embarrassingly parallelism with OpenMP: Mandelbrot set]() - Nota: 8.25
+* [Laboratori 3: Embarrassingly parallelism with OpenMP: Mandelbrot set](https://github.com/carlotacb/PAR-Laboratoris/tree/master/LAB%203) - Nota: 8.25
 
-* [Laboratori 4: Divide and Conquer parallelism with OpenMP: Sorting]() - Nota: 11.30
+* [Laboratori 4: Divide and Conquer parallelism with OpenMP: Sorting](https://github.com/carlotacb/PAR-Laboratoris/tree/master/LAB%204) - Nota: 11.30
 
-* [Laboratori 5: Geometric (data) decomposition: solving the heat equation]() - Nota: 9.80
+* [Laboratori 5: Geometric (data) decomposition: solving the heat equation](https://github.com/carlotacb/PAR-Laboratoris/tree/master/LAB%205) - Nota: 9.80
 
 ## Autors:
 
