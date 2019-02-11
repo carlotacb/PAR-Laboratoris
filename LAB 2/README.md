@@ -1,8 +1,6 @@
-# Lab 2: OpenMP programming model and analysis of overheads
+# Lab 2: OpenMP programming model and analysis of overheads [Deliverable points]
 
-## Deliverable
-
-### Part I: OpenMP questionnaire
+## Part I: OpenMP questionnaire
 
 When answering to the questions in this questionnaire, please DO NOT simply answer with yes, no or a number; try to minimally justify all your answers. Sometimes you may need to execute several times in order to see the effect of data races in the parallel execution.
 
@@ -77,7 +75,7 @@ C) Tasks
 3. **taskloop.c**
 	1. Execute the program several times and make sure you are able to explain when each thread in the threads team is actually contributing to the execution of work (tasks)  generated in the taskloop.
 
-### Part II: Parallelization overheads
+## Part II: Parallelization overheads
 
 1. Which is the order of magnitude for the overhead associated with a parallel region (fork and join) in _OpenMP_? Is it constant? Reason the answer based on the results reported by the **pi_omp_parallel.c** code.
 

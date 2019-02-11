@@ -1,22 +1,20 @@
-# Lab 3: Embarrassingly parallelism with OpenMP: Mandelbrot set
+# Lab 3: Embarrassingly parallelism with OpenMP: Mandelbrot set [Deliverable points]
 
-## Deliverable
-
-### Task granularity analysis
+## Task granularity analysis
 
 1. Which are the two most important common characteristics of the task graphs generated for the two task granularities (_Row_ and _Point_) for the non-graphical version of _mandel-tareador_? Obtain the task graphs that are generated in both cases for -w 8.
 
 2. Which section of the code is causing the serialization of all tasks in mandeld-tareador? How do you plan to protect this section of code in the parallel OpenMP code?
 
-### OpenMP task-based parallelization
+## OpenMP task-based parallelization
 
 1. For the _Row_ and _Point_ decompositions of the non-graphical version, include the execution time and speed-up plots obtained in the strong scalability analysis (with -i 10000). Reason about the causes of good or bad performance in each case.
 
-### OpenMP taskloop{based parallelization
+## OpenMP taskloop{based parallelization
 
 1. For the _Row_ and _Point_ decompositions of the non-graphical version, include the execution time and speed-up plots obtained in the strong scalability analysis (with -i 10000). Reason about the causes of good or bad performance in each case.
 
-### OpenMP for{based parallelization
+## OpenMP for{based parallelization
 
 1. For the the _Row_ and _Point_ decompositions of the non-graphical version, include the execution time and speed-up plots that have been obtained for the 4 different loop schedules when using 8 threads (with -i 10000). Reason about the performance that is observed.
 
