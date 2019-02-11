@@ -17,7 +17,7 @@ A) Basics
 	1. Is the execution of the program correct? (i.e., prints a sequence of "(Thid) Hello (Thid) world!" being Thid the thread identifier) Which data sharing clause should be added to make it correct?
 	2. Are the lines always printed in the same order? Could the messages appear intermixed?
 
-3. **how many.c**: Assuming the OMP NUM THREADS variable is set to 8 with "export OMP NUM THREADS=8"
+3. **how many.c**: Assuming the _OMP_NUM_THREADS_ variable is set to 8 with "export _OMP_NUM_THREADS=8_"
 	1. How many "Hello world ..." lines are printed on the screen?
 	2. If the if(0) clause is commented in the last parallel directive, how many "Hello world ..." lines are printed on the screen?
 
