@@ -89,24 +89,25 @@ void mandelbrot(int height,
 
 {
     /* Calculate points and save/display */
+    int num_threads = omp_get_num_threads();
     #pragma omp parallel
     #pragma omp single
+    //#pragma omp for schedule(runtime)
+    #pragma omp taskloop grainsize(height/num_threads) private(col)
     for (row = 0; row < height; ++row) {
         for (col = 0; col < width; ++col) {
-            #pragma omp task firstprivate(row,col)
-            {
-
             complex z, c;
 
+  
             z.real = z.imag = 0;
-
             /* Scale display coordinates to actual region  */
-            c.real = real_min + ((double) col * scale_real);
+           
+	    c.real = real_min + ((double) col * scale_real);
             c.imag = imag_min + ((double) (height-1-row) * scale_imag);
                                         /* height-1-row so y axis displays
                                          * with larger values at top
                                          */
-
+	    
             /* Calculate z0, z1, .... until divergence or maximum iterations */
             int k = 0;
             double lengthsq, temp;
@@ -119,20 +120,16 @@ void mandelbrot(int height,
             } while (lengthsq < (N*N) && k < maxiter);
 
 #if _DISPLAY_
-	    #pragma omp critical 
-       {
             /* Scale color and display point  */
             long color = (long) ((k-1) * scale_color) + min_color;
             if (setup_return == EXIT_SUCCESS) {
                 XSetForeground (display, gc, color);
                 XDrawPoint (display, win, gc, col, row);
             }
-        }
 #else
-       output[row][col]=k;
+	    output[row][col]=k;
 #endif
-            }
-	}
+        }
     }
 }
             
@@ -261,7 +258,8 @@ int main(int argc, char *argv[]) {
 #else
     if (fp != NULL)
     {
-        if(fwrite(output, sizeof(int), height*width, fp) != height*width) { 
+      for (int row = 0; row < height; ++row)
+        if(fwrite(output[row], sizeof(int), width, fp) != width) { 
 		fprintf(stderr, "Output file not written correctly\n"); 
 	}
     }
